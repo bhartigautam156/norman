@@ -2,18 +2,13 @@ module github.com/rancher/norman
 
 go 1.25.0
 
-replace (
-	github.com/rancher/lasso => github.com/bhartigautam156/lasso v0.0.0-20260121065228-70b2c91143c4
-	github.com/rancher/wrangler/v3 => github.com/bhartigautam156/wrangler/v3 v3.3.2-0.20260121071658-21d254f6dd17
-)
-
 require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674
 	github.com/matryer/moq v0.6.0
 	github.com/pkg/errors v0.9.1
-	github.com/rancher/lasso v0.2.5
-	github.com/rancher/wrangler/v3 v3.3.1
+	github.com/rancher/lasso v0.2.6
+	github.com/rancher/wrangler/v3 v3.3.2-rc.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/sync v0.18.0
